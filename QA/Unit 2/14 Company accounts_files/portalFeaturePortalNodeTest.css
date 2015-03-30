@@ -1,0 +1,474 @@
+#test-area {
+	width:100%;	
+	padding:8px;
+}
+
+/*------------------
+	QUESTION MENU
+--------------------*/
+
+/** IE HACK - to set the min-height of  div**/
+/* for understanding browsers */
+div#test-question-list {
+	float:left;
+	margin-left: 5px;
+	margin-right: 15px;
+	min-height:550px; 
+	height: 550px;
+	width:113px;
+	border: 1px solid #ccc;
+	overflow-y: auto;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	
+}
+/* for Internet Explorer */
+/*\*/
+* html div#test-question-list {
+	height: 550px;
+}
+/**/
+/** END OF IE HACK **/
+
+.test-question-tile {
+	padding:3px;
+	border-bottom:1px dashed #ccc;
+}
+
+/* This class is ADDED using jQuery when we mouseover - allowing us to keep the existing classes (rather than use :hover) */
+.test-question-tile-hover {
+	background:url("../images/menu_trigger/bullet_arrow_right.png") right no-repeat transparent; /* Image to display between breadcrumbs */
+}
+
+.test-question-viewed {
+	font-weight:bold;
+}
+
+/*------------------
+	QUESTION SECTION
+--------------------*/
+
+/** IE HACK - to set the min-height of div**/
+/* for understanding browsers */
+div#test-question {
+	float:left;
+	margin-right: 15px;
+	min-height:200px; 
+	height:auto;
+	width:440px;
+	border: none;
+}
+/* for Internet Explorer */
+/*\*/
+* html div#test-question {
+	height: 200px;
+}
+/**/
+/** END OF IE HACK **/
+
+#test-question-header {
+	padding:3px;
+	border-bottom:1px dashed #ccc;
+	font-weight:bold;
+	align:center;
+	background-color: #eee;
+	color: #666;
+}
+
+#test-question-flag {
+	margin: 0px 10px 0px 10px;	
+	display:inline;
+	color:#ccc;
+	font-size:10px;
+}
+
+#test-question-id {
+	color:#333;
+	font-weight:bold;
+	display:inline;
+	margin-right:5px;
+}
+
+#test-question-text {
+	display:inline;
+    white-space: pre-wrap;
+    word-wrap: break-word;      /* pre-wrap for IE 5.5-7 */
+    white-space: -moz-pre-wrap; /* pre-wrap  for Firefox 1.0-2.0 */
+}
+
+/*------------------
+	RESPONSE SECTION
+--------------------*/
+
+/* Box around the responses */
+#test-response {
+	float:left;
+	width:440px;
+	border:3px solid #ccc;
+	display:none;
+}
+
+/* each response row */
+.test-response {
+	width:440px;
+}
+
+/* hovering over an answer */ 
+.test-response:hover {
+	background-color:#ccc;
+}
+
+/* Right/Wrong */
+.test-response-grade {
+	float:left;
+	width:40px;	
+	height:25px;
+	vertical-align: middle;
+}
+
+/* A,B,C,D responses */
+.test-response-letter {
+    clear:both;
+	float:left;
+	width:40px;	
+	font-size:1.6em;
+	font-weight:bolder;
+/*	color: #666; */
+	height:25px;
+	vertical-align: middle;
+	margin-top:5px;
+	padding-left:20px;
+}
+
+.test-response-options {
+	clear: both;
+	width:400px;
+	padding-left:20px;
+	display:none;
+}
+
+.test-response-numeral {
+	float:left;
+	width:25px;	
+	font-size:1.2em;
+	font-weight:bolder;
+	color: #666;
+	height:25px;
+	vertical-align: middle;
+	margin-top:5px;
+}
+
+.test-response-option {
+	float:left;
+	width: 300px;
+	margin-top:5px;
+	vertical-align: middle;
+    line-height:1.5;
+}
+
+#test-response-answer-gapfill {
+    width: 440px;
+}
+
+/* The text of the option */
+/** IE HACK - to set the min-height of div**/
+/* for understanding browsers */
+div.test-response-answer {
+	float:left;
+	min-height:25px; 
+	height:auto;
+	width:335px;
+	border: none;
+	margin-top:5px;
+	padding-top:3px;
+}
+/* for Internet Explorer */
+/*\*/
+* html div.test-response-answer {
+	height: 25px;
+}
+/**/
+/** END OF IE HACK **/
+
+
+
+/* If the delegate response is correct, show it like this */
+.test-response-right {
+	background-color: #088808;
+    color:#fff;
+}
+
+div.test-response-right.test-response-letter {
+    color:#fff;
+}
+
+
+/* If the delegate response is incorrect, show it like this */
+.test-response-wrong {
+	background-color:#a71930;
+	color:#fff;
+}	
+
+div.test-response-wrong.test-response-letter {
+	color:#fff;
+}
+
+.test-response-answered {
+	background-color:#3a2863;
+	color:#fff;
+}	
+
+div.test-response-answered.test-response-letter {
+	color:#fff;
+}
+
+
+/* The correct answer will look like this */
+.test-right-answer {
+	background:url("../../../../../i/icons/accept.png") center bottom no-repeat transparent; /* Image to display between breadcrumbs */
+}
+
+/* the incorrect answers will look like this */
+.test-wrong-answer {
+	background:url("../../../../../i/icons/delete.png") center bottom no-repeat transparent; /* Image to display between breadcrumbs */
+}	
+
+/*------------------
+	ANSWER SECTION
+--------------------*/
+
+#test-answer {
+	display:inline-block;
+	margin-top:15px;
+	width:440px;
+}
+
+#test-answer-headline {
+	
+}
+
+#test-answer-justification {
+
+}
+
+#test-answer-image {
+
+}
+
+#test-answer-helpdesklink {
+	display:none;
+}
+
+/* Box around the responses */
+#test-helpdesk {
+    width:440px;
+    border:none;
+    display:block;
+}
+
+
+/*----------------
+	CONTROL PANEL
+------------------*/
+
+/** IE HACK - to set the min-height of div**/
+/* for understanding browsers */
+div#test-control {
+	float:right;
+	min-height:550px; 
+	height:auto;
+	width:190px;
+	margin-left: 15px;
+	margin-top: 15px;
+	height:auto;
+	border-left: 1px dashed #ccc;
+}
+/* for Internet Explorer */
+/*\*/
+* html div#test-control {
+	height: 550px;
+}
+/**/
+/** END OF IE HACK **/
+
+
+/*--------------
+	NAVIGATION
+----------------*/
+
+#test-navigation,
+#test-navigation-copy {
+	
+	display:inline-table;
+	width:440px;
+
+}
+
+#test-navigation {
+	margin-top:15px;
+}
+
+.test-navigation-prior {
+	display:none;
+	float:left;
+}	
+
+.test-navigation-next {
+	float:right;
+}
+
+.test-navigation-start{
+	float:right;
+}
+
+.test-submit-finish-inline {
+    border: 1px solid #CCCCCC;
+    float: right;
+    width: 90px;
+	background: url("../../../../../i/icons/error.png") no-repeat scroll 94px center #EEEEEE;
+}	
+
+#test-submit-finish, #test-submit-print {
+	margin-bottom: 8px;
+    margin-left: 5px;
+    width: 90px;
+}
+
+#test-submit-finish {
+	background: url("../../../../../i/icons/error.png") no-repeat scroll 94px center #EEEEEE;
+}
+
+/*--------------
+	TRANSCRIPT
+----------------*/
+
+
+.test-question {
+	border-bottom: 1px dashed #ccc;
+	margin-:10px;
+	width:540px;	
+	margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.test-question-timer {
+	color:#ccc;
+	font-size: 0.9em;
+	font-style:italic;	
+	margin-left:5px;
+}
+
+.test-question-id {
+	color:#333;
+	font-weight:bold;
+	display:inline;
+	margin-right:5px;
+}
+
+.test-question-text {
+}
+
+
+#test-question-image {
+	width:500px;
+	overflow:auto;
+}
+
+			
+.test-answer {
+}
+
+.test-answer-headline {
+	margin-top:10px;
+	float:none;
+}
+
+.test-answer-yours {
+	float:left;
+	margin-left:30px;
+	width:220px;	
+}
+.test-answer-actual {
+	float:right;
+	margin-right:30px;
+	width:220px;	
+}
+
+.test-answer-justification {
+	width:540px;
+	float:none;	
+	
+}
+
+.test-answer-image {
+	width:500px;
+	overflow:auto;
+}
+
+.active-timer {
+	color:#666;
+	font-weight:bold;	
+}
+
+/*--------------
+	QUESTIONSHEET
+----------------*/
+
+.test-response-passive {
+	margin-left:25px;
+}
+
+#test-timing {
+	margin-left:5px;
+	border:1px solid #bbb;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	padding:5px;
+	width:160px;
+	margin-bottom:8px;
+}	
+
+#test-submit-printQnA {
+	margin-left:5px;
+}
+
+/*-----------------
+    HELPDESKPOPUP
+-------------------*/
+
+#test-answer-helpdesklink {
+	background:url("../images/left-nav-arrow-grey.png") 0px 6px no-repeat transparent;
+	padding-top:5px;
+	color: #222;
+	padding-left:10px;
+}
+
+#test-answer-helpdesklink:hover {
+    background:url("../images/left-nav-arrow.png") 0px 6px no-repeat transparent;
+	color: #a71930;
+}	
+
+#test-question-helpdesk{
+	display:none;
+	border:1px solid #bbb;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	padding:5px;
+}
+
+table.test-helpdesk-form-table {
+	font-size: 12px;
+	width:100%
+}
+
+table.test-helpdesk-form-table td {
+	padding: 3px;
+}
+
+table.test-helpdesk-form-table label{
+	font-weight:bold;
+}
+

@@ -1,0 +1,149 @@
+/* JQuery Theme */
+@import url(jquery-ui-1.8.13.custom.css);
+
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a:hover {
+    background:none;
+}
+
+/* Misc stuff */
+
+table {
+	border-collapse: collapse;
+	text-align: left;
+}
+
+td, th {
+	padding: 7px 10px;
+}
+
+.tableHeader th {
+	color: #000;
+	font-weight: bold;
+}
+
+.tableRow {
+	background: #fff;	
+}
+
+.tableColourRow {
+	background: #ece9ef;	
+}
+
+.tableCalendarIcon {
+	background: url("../images/general_icons/calendar_icon.gif");
+	margin-right: 5px;
+	display: inline;
+	float: left;
+	width: 14px;
+	height: 15px;
+}
+
+.tableAttentionViolet, .tableAttentionWhite {
+	width: 28px;
+	height: 28px;
+	background:url("../images/attn-32.png") top left no-repeat transparent;
+}
+
+#tableImportant {
+	color: #A71930;	
+}
+
+#content-area {
+	padding:8px;
+}
+
+#schedule-area {
+	padding:8px;		
+}
+
+#program-deadlines{
+	padding:8px;	
+}
+
+#flagged-question-area{
+	padding:8px;
+}
+
+#helpdesk-area{
+	padding:8px;
+}
+
+#charter-details{
+	width:734px;
+	padding:8px;	
+}
+
+
+
+#charter-details ul {
+	padding:10px 0px 20px 20px;	
+}
+
+#charter-details li {
+	padding-top:5px;	
+}
+
+/* Quick link icons */
+#icon-performance{
+	background:url("../images/progress.png") 6px no-repeat transparent; 
+}
+#icon-last-session{
+	background:url("../images/edit.png") 6px no-repeat transparent;
+}
+#icon-schedule{
+	background:url("../images/calendar.png") 6px no-repeat transparent;
+}
+#icon-email{
+	background:url("../images/mail.png") 6px no-repeat transparent;
+}
+#icon-monitor{
+	background:url("../images/monitor.png") 6px no-repeat transparent;
+}
+#icon-materials{
+    background:url("../images/icons/books.png") 6px no-repeat transparent;
+}
+#icon-studyroute{
+    background:url("../images/icons/study-route.png") 6px no-repeat transparent;
+}
+
+.jeditable {
+	border-left: 1px dotted #88c;
+	border-bottom: 1px dotted #88c;
+	padding-left: 2px; 
+	padding-bottom: 2px;
+}
+
+.jeditable form {
+	display:inline;
+}
+
+#help-course-material-main {
+    background:url("../images/help-content-menu.png") 6px no-repeat transparent;
+    width:580px;
+    height:363px;
+}
+
+#help-course-material-main-iad {
+    background:url("../images/help-content-menu-iad.png") 6px no-repeat transparent;
+    width:580px;
+    height:363px;
+}
+
+#help-course-material-text {
+    width:220px;
+    height:180px;
+    margin-left:310px;
+    padding-top:95px;
+}
+
+.help-close {
+    float:right;
+}
+
+.general-box {
+    margin-top:8px;
+    margin-bottom:8px;
+    border: 1px solid #ccc;
+    border-radius: 7px 7px 7px 7px;
+    padding: 8px;
+}

@@ -1,0 +1,2177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0097)https://eu0.7citylearning.com/erp_live/2/index.php/PortalEx/16/325/page/10631/46866/show/7299846/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Portal</title>
+
+<script type="text/javascript" src="./Chapter9_files/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="./Chapter9_files/jquery-ui-1.8.13.custom.min.js"></script><style type="text/css"></style>
+<script type="text/javascript" src="./Chapter9_files/jquery-corners.js"></script>
+<script type="text/javascript" src="./Chapter9_files/accordion.js"></script>
+<script type="text/javascript" src="./Chapter9_files/status.js"></script>
+<script type="text/javascript" src="./Chapter9_files/overlibmws.js"></script>
+<script type="text/javascript" src="./Chapter9_files/overlibmws_iframe.js"></script>
+<script type="text/javascript" src="./Chapter9_files/overlibmws_shadow.js"></script>
+<script type="text/javascript" src="./Chapter9_files/widgets.js"></script>
+<script type="text/javascript" src="./Chapter9_files/jquery.timer.js"></script>
+<link rel="stylesheet" type="text/css" href="./Chapter9_files/style_template.css">
+<link rel="stylesheet" type="text/css" href="./Chapter9_files/portalFeaturePortalNodeTest.css">
+<link rel="stylesheet" type="text/css" href="./Chapter9_files/style_customisation.css">
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="/erp_live/2/resources/Portal/Brands/5/css/ie6_hacks.css" />
+<![endif]-->
+<script type="text/javascript">
+			$(document).ready(function(){		
+				
+				$("#iphone_switch").animate({backgroundPosition: $("form#config-form td#editing input").attr('value') == 'no' ? -53:0}, "slow");
+
+				
+				$("#iphone_switch").click(function(){
+					$("#iphone_switch").animate({backgroundPosition: $("form#config-form td#editing input").attr('value') == 'yes' ? -53:0}, "slow", function(){
+						$("form#config-form td#editing input").attr('value', $("form#config-form td#editing input").attr('value') == 'yes'?'no':'yes');
+						$("form#config-form").submit();
+						window.location.reload();						
+					});
+				});
+
+				
+								
+			});
+
+			
+						
+
+            function toggleConfigure() {
+                $("#config-top-panel").slideToggle();
+            }
+		</script>
+</head>
+<body>
+<div id="innertemplate" style="margin:10px;">
+<style type="text/css">
+.test-response-options {
+display: block;
+}
+</style>
+<div id="test-area">
+<h1>Competency Test (Random Difficulty Questions)</h1>
+<div class="test-main-area">
+<div class="test-question">
+<h2>Question 1</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1046724]</span>
+<span class="test-question-text">Where do corporate bonds mostly trade?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Exchanges</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Liquidity pools</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">OTC</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">TRAX</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - OTC
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+TRAX is a reporting mechanism. Even though corporate bonds trade through the other three mechanisms it is OTC where they are most frequently traded.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 2</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1016986]</span>
+<span class="test-question-text">In the event of a default by an exchange member, which of the following is the best description of what will happen if the clearing house offers an independent guarantee?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">The resources of the clearing house can be used to close-out the position</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">The resources of the clearing house and the clearing house members will be used to close-out the position</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">The resources of the members of the clearing house only will be used</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">The resources of only the defaulting member will be used</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - The resources of the clearing house can be used to close-out the position
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+If an exchange is using an independent guarantee then after using clearing member margin, its resources will be used in the event of a default by a clearing member.
+ICE Clear Europe uses a mutual guarantee where both the clearing house and members' resources are used.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 3</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1046718]</span>
+<span class="test-question-text">In a stock borrowing and lending situation which of the following statements are FALSE?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">The lender of the stock may receive an artificial dividend</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">The lender of the stock loses voting rights</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">The lender of the stock can still sell the stock</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">The lender of the stock will have stock returned at a future date</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - The lender of the stock can still sell the stock
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+If the lender of the stock wished to sell it, the stock would have to be returned from the Stock Borrowing and Lending Intermediary.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 4</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1001210]</span>
+<span class="test-question-text">All of the following are true of CREST except:</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">It is the primary settlement system for UK equity on the LSE</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">It is operated and owned by Euroclear UK and Ireland</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Physical payments are made within the CREST system</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">It provides settlement of dematerialised and paper stock</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - Physical payments are made within the CREST system
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+CREST is the settlement system used for UK equities traded through the LSE.  The CREST Courier and Sorting Service (CCSS) still allows investors to transfer paper certificates although most settlement within CREST is done electronically. This is called 'book entry transfer'. Payments are made outside CREST by payment banks.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 5</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015830]</span>
+<span class="test-question-text">At what stage does a clearing house become the central counterparty to a trade?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">When the trade is struck</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">When the trade is reported</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">When the trade is settled</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">When the trade is registered</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - When the trade is registered
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Once the trade has been allocated and assigned in the Universal Clearing Platform, it is then passed onto the clearing house.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 6</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015656]</span>
+<span class="test-question-text">A benefit of LSE's CCP service is:</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Reduced administration</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Disclosure of parties to the trade</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Reduced FX risk</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Decreased market risk</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - Reduced administration
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+The identity of the counterparty will not be disclosed, the CCP service has no impact on FX, and it reduces credit risk. However, there is a reduction in administration thanks to the ability to settle on a net basis with a single counterparty, such as LCH.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 7</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015205]</span>
+<span class="test-question-text">Standard settlement for UK Government loan stock is:</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">T+1</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">T+2</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">T+3</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">T+5</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - T+1
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Gilts settle via CREST on the next business day after the trade date - T+1.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 8</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1013449]</span>
+<span class="test-question-text">What is the purpose of variation margin?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Cover adverse movements expected over the next week</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">An initial deposit to cover the maximum likely daily loss on a futures contract</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Cover adverse movements in value from the previous day</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Cover adverse movements from the previous week</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - Cover adverse movements in value from the previous day
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Variation margin can be a receipt or a payment. It represents the profit or loss on open derivative positions, which result from changes in underlying asset values from the previous day.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 9</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1001178]</span>
+<span class="test-question-text">Which two of the following statements in reference to SETS are untrue?</span>
+</div>
+<div class="test-question-image"></div>
+<div id="test-response-option-1" class="test-response-options clearfix">
+<div id="test-response-option-numeral-1" class="test-response-numeral">I</div>
+<div id="test-response-option-text-1" class="test-response-option">SETS orders can be anonymous</div>
+</div>
+<div id="test-response-option-2" class="test-response-options clearfix">
+<div id="test-response-option-numeral-2" class="test-response-numeral">II</div>
+<div id="test-response-option-text-2" class="test-response-option">The highest priced sell order will be at the top of the sell side of the SETS order book</div>
+</div>
+<div id="test-response-option-3" class="test-response-options clearfix">
+<div id="test-response-option-numeral-3" class="test-response-numeral">III</div>
+<div id="test-response-option-text-3" class="test-response-option">Orders at the same price will be matched on a time priority basis</div>
+</div>
+<div id="test-response-option-4" class="test-response-options clearfix">
+<div id="test-response-option-numeral-4" class="test-response-numeral">IV</div>
+<div id="test-response-option-text-4" class="test-response-option">Orders at the same price will be matched on the basis of highest volume first</div>
+</div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">I and III</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">II and IV</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">II and III</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">III and IV</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>B</strong> - II and IV
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Option II is incorrect as it is the LOWEST priced sell order that will be at the top of the sell side of the SETS order book. Option IV is incorrect as order book priority is PRICE then TIME (volume is irrelevant).
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 10</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015192]</span>
+<span class="test-question-text">Who offers stock-lending and borrowing facilities in the Eurobond market?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">CREST</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Clearstream</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">CGO</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">LCH.Clearnet</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>B</strong> - Clearstream
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Clearstream and Euroclear both provide Eurobond clearance, settlement, custody, lending and borrowing services.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 11</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1012472]</span>
+<span class="test-question-text">Which of the following is/are true regarding SETS?</span>
+</div>
+<div class="test-question-image"></div>
+<div id="test-response-option-1" class="test-response-options clearfix">
+<div id="test-response-option-numeral-1" class="test-response-numeral">I</div>
+<div id="test-response-option-text-1" class="test-response-option">It is a quote driven market where market makers display bid and offer prices</div>
+</div>
+<div id="test-response-option-2" class="test-response-options clearfix">
+<div id="test-response-option-numeral-2" class="test-response-numeral">II</div>
+<div id="test-response-option-text-2" class="test-response-option">It is an order driven market where members place orders into an electronic order book</div>
+</div>
+<div id="test-response-option-3" class="test-response-options clearfix">
+<div id="test-response-option-numeral-3" class="test-response-numeral">III</div>
+<div id="test-response-option-text-3" class="test-response-option">Orders are matched in order of priority according to price, then time of input</div>
+</div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">I only</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">I and III</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">II and III</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">I, II and III</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - II and III
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+SETS is a fully automatic electronic trading system. It is referred to as an order book, as it is driven by the orders placed on it and not bid/offer quotes.
+The system will rank the orders by best price and then earliest time.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 12</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015179]</span>
+<span class="test-question-text">Which of the following investments is/are settled through CREST?</span>
+</div>
+<div class="test-question-image"></div>
+<div id="test-response-option-1" class="test-response-options clearfix">
+<div id="test-response-option-numeral-1" class="test-response-numeral">I</div>
+<div id="test-response-option-text-1" class="test-response-option">UK corporate equities</div>
+</div>
+<div id="test-response-option-2" class="test-response-options clearfix">
+<div id="test-response-option-numeral-2" class="test-response-numeral">II</div>
+<div id="test-response-option-text-2" class="test-response-option">Money market instruments</div>
+</div>
+<div id="test-response-option-3" class="test-response-options clearfix">
+<div id="test-response-option-numeral-3" class="test-response-numeral">III</div>
+<div id="test-response-option-text-3" class="test-response-option">UK corporate loan stock</div>
+</div>
+<div id="test-response-option-4" class="test-response-options clearfix">
+<div id="test-response-option-numeral-4" class="test-response-numeral">IV</div>
+<div id="test-response-option-text-4" class="test-response-option">UK government bonds</div>
+</div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">I, II, III and IV</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">I, III and IV</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">I and IV</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">II only</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - I, II, III and IV
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Money market instruments are now settled through Crest.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 13</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1016227]</span>
+<span class="test-question-text">What is the purpose of the London Stock Exchange's central counterparty service?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">To reduce systematic risk through diversification</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">To reduce liabilities by guaranteeing returns</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">To reduce default risk through margin</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">To reduce settlement risk through delivery vs. payment</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - To reduce default risk through margin
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+The Central Counterparty service (CCP) provided by the London Stock Exchange reduces default risk by novating the contract and collecting margin.
+CREST protects against settlement risk through delivery vs. payment (DvP).
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 14</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1013448]</span>
+<span class="test-question-text">Which of the following best defines initial margin?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Adverse movements expected over the next week</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Initial deposit to cover the maximum likely daily loss on a futures contract</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Adverse movements in value from the previous day</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Adverse movements from the previous week</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>B</strong> - Initial deposit to cover the maximum likely daily loss on a futures contract
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Initial margin is a 'goodwill deposit' payable to LCH.Clearnet when entering into futures positions.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 15</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015163]</span>
+<span class="test-question-text">Which of the following is true regarding London Stock Exchange member firms?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">They must quote firm prices at which they will trade if they choose to act as principal</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">They are automatically considered to be market makers and therefore quote firm prices at which they will trade</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">They may choose to act as an agency broker for some deals and as a principal for others</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">They have to act either as an agency broker or principal but not both</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - They may choose to act as an agency broker for some deals and as a principal for others
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+London Stock Exchange member firms have dual capacity: every member may deal as a principal or agency broker. If a member firm wants to take principal trading a step further then they may, in certain stocks, register as a market maker. Market makers are obliged to quote firm two way prices.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 16</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1046696]</span>
+<span class="test-question-text">A firm lends out client stock, who would make the trade report?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">It is not a reportable trade</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">The firm</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">It will be automatic</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">The custodian</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - It is not a reportable trade
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+There is not enough to assume any selling has taken place so therefore it implies collateral lending and this is not a reportable trade.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 17</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1013423]</span>
+<span class="test-question-text">Which organisation acts as central counterparty and clearing house?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">LCH.Clearnet</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">RCH</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">OM London Exchange</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">CREST</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - LCH.Clearnet
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+LCH.Clearnet is a recognised clearing house (RCH) which acts as central counterparty for trades executed on may exchanges.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 18</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1001163]</span>
+<span class="test-question-text">A market order contains which of the following information?</span>
+</div>
+<div class="test-question-image"></div>
+<div id="test-response-option-1" class="test-response-options clearfix">
+<div id="test-response-option-numeral-1" class="test-response-numeral">I</div>
+<div id="test-response-option-text-1" class="test-response-option">Whether the order is a buy or sell</div>
+</div>
+<div id="test-response-option-2" class="test-response-options clearfix">
+<div id="test-response-option-numeral-2" class="test-response-numeral">II</div>
+<div id="test-response-option-text-2" class="test-response-option">Limit price</div>
+</div>
+<div id="test-response-option-3" class="test-response-options clearfix">
+<div id="test-response-option-numeral-3" class="test-response-numeral">III</div>
+<div id="test-response-option-text-3" class="test-response-option">Volume of shares</div>
+</div>
+<div id="test-response-option-4" class="test-response-options clearfix">
+<div id="test-response-option-numeral-4" class="test-response-numeral">IV</div>
+<div id="test-response-option-text-4" class="test-response-option">Expiry date</div>
+</div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">II and III</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">I and IV</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">I and III</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">I, III and IV</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - I and III
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+A market order will execute at the current best price on the order book whatever that may be. It will also execute immediately. Consequently, such an order will not specify a price or an expiry time.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 19</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015191]</span>
+<span class="test-question-text">Which of the following best describes CREST?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Computer based system</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Paper based system</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Electronic trading system</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Electronic order book</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - Computer based system
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+CREST deals with securities in a dematerialised format.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 20</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1023959]</span>
+<span class="test-question-text">What is the main purpose of stock borrowing from the lender's point of view?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">To reduce risk in the portfolio</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">To increase liquidity in the market</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">To increase the portfolio returns</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">To reduce capital requirements</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - To increase the portfolio returns
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Lending of stock by an institution will generate fees, which is its main purpose.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 21</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015198]</span>
+<span class="test-question-text">Which of the following is commonly used for the settlement of Eurobond transactions?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">LCH.Clearnet</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Euroclear</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">LME</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">SWX Europe</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>B</strong> - Euroclear
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Eurobond trades generally settle through one of two clearing houses: Euroclear and Clearstream. LCH.Clearnet is a central counterparty and LME and SWX Europe (the new name for virt-x) are exchanges.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 22</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1046720]</span>
+<span class="test-question-text">On SETS and SEAQ, what does NMS relate to?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">The minimum order size</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">The total daily volume</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">The maximum order size</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">The average trade volume</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - The average trade volume
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Even though a better answer is a percentage of the average daily volume made by institutions, the average trade volume is the best option given by the examiner.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 23</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1012316]</span>
+<span class="test-question-text">CREST is:</span>
+</div>
+<div class="test-question-image"></div>
+<div id="test-response-option-1" class="test-response-options clearfix">
+<div id="test-response-option-numeral-1" class="test-response-numeral">I</div>
+<div id="test-response-option-text-1" class="test-response-option">A trading system</div>
+</div>
+<div id="test-response-option-2" class="test-response-options clearfix">
+<div id="test-response-option-numeral-2" class="test-response-numeral">II</div>
+<div id="test-response-option-text-2" class="test-response-option">A settlement system</div>
+</div>
+<div id="test-response-option-3" class="test-response-options clearfix">
+<div id="test-response-option-numeral-3" class="test-response-numeral">III</div>
+<div id="test-response-option-text-3" class="test-response-option">A custodian</div>
+</div>
+<div id="test-response-option-4" class="test-response-options clearfix">
+<div id="test-response-option-numeral-4" class="test-response-numeral">IV</div>
+<div id="test-response-option-text-4" class="test-response-option">A CSD</div>
+</div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">I and III</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">II and III</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">II, III and IV</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">I, II and IV</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - II, III and IV
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+A CSD is a Central Securities Depositary, which refers to any institution that provides custodial services. CREST is also a RCH (Recognised Clearing House) and provides settlement on a delivery versus payment system.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 24</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015183]</span>
+<span class="test-question-text">Which of the following investments is/are not settled through CREST?</span>
+</div>
+<div class="test-question-image"></div>
+<div id="test-response-option-1" class="test-response-options clearfix">
+<div id="test-response-option-numeral-1" class="test-response-numeral">I</div>
+<div id="test-response-option-text-1" class="test-response-option">UK equities</div>
+</div>
+<div id="test-response-option-2" class="test-response-options clearfix">
+<div id="test-response-option-numeral-2" class="test-response-numeral">II</div>
+<div id="test-response-option-text-2" class="test-response-option">Options on Euronext.liffe</div>
+</div>
+<div id="test-response-option-3" class="test-response-options clearfix">
+<div id="test-response-option-numeral-3" class="test-response-numeral">III</div>
+<div id="test-response-option-text-3" class="test-response-option">Treasury bills</div>
+</div>
+<div id="test-response-option-4" class="test-response-options clearfix">
+<div id="test-response-option-numeral-4" class="test-response-numeral">IV</div>
+<div id="test-response-option-text-4" class="test-response-option">UK government bonds</div>
+</div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">II, III and IV</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">II and III</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">I and IV</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">II only</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - II only
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Options on NYSE Liffe clear through the LCH.Clearnet. Treasury bills are traded on the money markets but are now settled through Crest.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 25</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015182]</span>
+<span class="test-question-text">Ms Uvavu wishes to sell £20,000 of shares through a broker. Which of the following costs would she incur?</span>
+</div>
+<div class="test-question-image"></div>
+<div id="test-response-option-1" class="test-response-options clearfix">
+<div id="test-response-option-numeral-1" class="test-response-numeral">I</div>
+<div id="test-response-option-text-1" class="test-response-option">Broking commission</div>
+</div>
+<div id="test-response-option-2" class="test-response-options clearfix">
+<div id="test-response-option-numeral-2" class="test-response-numeral">II</div>
+<div id="test-response-option-text-2" class="test-response-option">SDRT</div>
+</div>
+<div id="test-response-option-3" class="test-response-options clearfix">
+<div id="test-response-option-numeral-3" class="test-response-numeral">III</div>
+<div id="test-response-option-text-3" class="test-response-option">Takeover Panel levy</div>
+</div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">I only</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">I and II</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">I and III</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">I, II and III</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - I and III
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+The Takeover Panel levy of £1 is chargeable on all UK equity transactions with a consideration of £10,000 or more. The broker is not going to do the deal for free, so brokerage will have to be paid, but as its not a purchase she will not incur stamp duty.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 26</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015204]</span>
+<span class="test-question-text">Who acts as depositary for Eurobonds?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Clearstream</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">CREST</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">LCH.Clearnet</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Euro Bourse</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - Clearstream
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Settlement / depositary functions for Eurobonds are carried out by Euroclear and Clearstream.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 27</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015173]</span>
+<span class="test-question-text">What is a NYSE designated market maker?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">A firm that trades only in certain stocks</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">An elective professional client</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">A firm that can only deal with retail clients</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">A firm responsible for matching or filling orders to ensure liquidity</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - A firm responsible for matching or filling orders to ensure liquidity
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Designated market makers ensure liquidity (similar to the LSE market maker role).
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 28</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015162]</span>
+<span class="test-question-text">Which of the following is TRUE about LSE market makers?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Quote continuous bid and offer prices, but do not have to indicate a minimum number of shares they will trade</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Quote continuous bid and offer prices, and indicate a maximum number of shares at which their prices are firm</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Do not quote continuous bid and offer prices, but indicate a minimum number of shares they will trade</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Do not quote continuous bid and offer prices, and do not have to indicate a maximum number of shares at which their prices are firm</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>B</strong> - Quote continuous bid and offer prices, and indicate a maximum number of shares at which their prices are firm
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+LSE market makers must quote continuous bid and offer prices, and indicate a maximum number of shares they will trade.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 29</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1070652]</span>
+<span class="test-question-text">How many days does a UK equity trade take to settle?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">2 days</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">5 days</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">10 days</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">14 days</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - 2 days
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Standard settlement is T+2.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 30</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1001181]</span>
+<span class="test-question-text">An inter-dealer broker (IDB) can deal with which of the following?</span>
+</div>
+<div class="test-question-image"></div>
+<div id="test-response-option-1" class="test-response-options clearfix">
+<div id="test-response-option-numeral-1" class="test-response-numeral">I</div>
+<div id="test-response-option-text-1" class="test-response-option">Market maker acting as principal</div>
+</div>
+<div id="test-response-option-2" class="test-response-options clearfix">
+<div id="test-response-option-numeral-2" class="test-response-numeral">II</div>
+<div id="test-response-option-text-2" class="test-response-option">Market maker acting as an agent</div>
+</div>
+<div id="test-response-option-3" class="test-response-options clearfix">
+<div id="test-response-option-numeral-3" class="test-response-numeral">III</div>
+<div id="test-response-option-text-3" class="test-response-option">Stock borrowing and lending intermediary</div>
+</div>
+<div id="test-response-option-4" class="test-response-options clearfix">
+<div id="test-response-option-numeral-4" class="test-response-numeral">IV</div>
+<div id="test-response-option-text-4" class="test-response-option">Broker dealer</div>
+</div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">I only</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">I and II</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">I, II and III</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">I, II, III and IV</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - I, II, III and IV
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+IDBs offer their services to other member firms. These are often market makers wishing to trade-out of large positions but retain their anonymity.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 31</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015174]</span>
+<span class="test-question-text">What is the Universal Trading Platform of the NYSE?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">A settlement system for equities</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">A  system for publishing trade information</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">A system for automatic order execution</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">A system for transferring orders to designated market makers</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - A system for transferring orders to designated market makers
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Universal Trading Platform is used for passing orders to designated market makers for matching against the order book or filling. It is referred to as a 'designated order turnaround system'.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 32</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1017685]</span>
+<span class="test-question-text">Frank Ortiz is very risk averse and does not want to lose any of his capital. Which of the following do you recommend?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Gilts priced above par</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Hedge fund</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Unit trust</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Deposit account</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - Deposit account
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Deposit accounts do not expose the investor's capital to risk, generally speaking. Gilts priced below par would also be considered to be a very low-risk investment.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 33</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015184]</span>
+<span class="test-question-text">How many days does a US equity trade take to settle on the New York Stock Exchange?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">25</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">14</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">5</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">3</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - 3
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Note, standard settlement in the UK is T+2.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 34</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1046794]</span>
+<span class="test-question-text">Which of the following is TRUE regarding Emerging Market Securities? They:</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">are often under researched and therefore offer potential opportunities</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">offer low volatility</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">are highly correlated with government bonds</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">trade on a market that is always fair and transparent</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - are often under researched and therefore offer potential opportunities
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Emerging markets are highly sensitive to political risk and hence many are highly volatile. Many markets which are still in their infancy suffer from insider trading and lack of liquidity. Like most equities, correlation with government bonds should be low.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 35</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1016221]</span>
+<span class="test-question-text">Which of the following best reflects the securities that trade on SETS?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">FTSE 100 shares only</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">FTSE 100 shares and the more liquid FTSE 250 shares</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">FTSE All Shares only</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">FTSE All Shares and the more liquid AIM shares</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - FTSE All Shares and the more liquid AIM shares
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+The FTSE All Share and the more liquid AIM shares are traded on the SETS platform. All others trade on SETSqx.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 36</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1066763]</span>
+<span class="test-question-text">What is the role of a systematic internaliser?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">	To provide continuous liquidity in the markets by providing buy prices (BID) and sell prices (OFFER)</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">	To provide intermediating services between other firms</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">	Borrowing from institutional investors with large portfolios that are passively held</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">To facilitate a cross trade between clients</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - To facilitate a cross trade between clients
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+A broker may act on behalf of TWO clients. The broker may, therefore, buy from one client AND sell to another. This is known as a 'CROSS-TRADE'. Although in performing this trade the firm has effectively created a flat position for itself, it must report both sides of the trade into the exchange. In this situation the broker would be known as a systematic inernaliser.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 37</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015194]</span>
+<span class="test-question-text">What are GEMMs?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Gilt-edged money markets</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Gilt-edged market managers</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Gilt-edged market makers</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Gilt-edged money makers</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - Gilt-edged market makers
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+GEMMs register with the DMO, and undertake to make a market in gilts. They are also LSE members.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 38</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015193]</span>
+<span class="test-question-text">Eurobond transactions are largely conducted according to rules drawn up by:</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">The Bank for International Settlements</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">The Federal Reserve</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">The European Union Commission</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">The International Capital Markets Association</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - The International Capital Markets Association
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+The International Capital Markets Association (ICMA) is the regulatory body for Eurobond markets.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 39</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015172]</span>
+<span class="test-question-text">An investor buys £10,500 worth of shares and sells them later the same day. Which of the following organisations would benefit from the direct charges levied on these transactions?</span>
+</div>
+<div class="test-question-image"></div>
+<div id="test-response-option-1" class="test-response-options clearfix">
+<div id="test-response-option-numeral-1" class="test-response-numeral">I</div>
+<div id="test-response-option-text-1" class="test-response-option">Her Majesty's Revenue and Customs</div>
+</div>
+<div id="test-response-option-2" class="test-response-options clearfix">
+<div id="test-response-option-numeral-2" class="test-response-numeral">II</div>
+<div id="test-response-option-text-2" class="test-response-option">The Financial Conduct Authority</div>
+</div>
+<div id="test-response-option-3" class="test-response-options clearfix">
+<div id="test-response-option-numeral-3" class="test-response-numeral">III</div>
+<div id="test-response-option-text-3" class="test-response-option">The Takeover Panel</div>
+</div>
+<div id="test-response-option-4" class="test-response-options clearfix">
+<div id="test-response-option-numeral-4" class="test-response-numeral">IV</div>
+<div id="test-response-option-text-4" class="test-response-option">The Financial Services and Markets Tribunal</div>
+</div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">I, II, III and IV</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">I and III</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">II and IV</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">I only</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>B</strong> - I and III
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+The inland revenue will receive stamp duty whilst the PTM will receive a levy of £1 on deals with a consideration of  £10,000 or more.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 40</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1046450]</span>
+<span class="test-question-text">Euroclear UK and Ireland run a settlement system for UK securities called CREST. Other than arranging payment and delivery of securities, what extra service does CREST arrange?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Novation of trades performed on LSE's SETS system</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Collects payment for SDRT and transfers them directly to HMRC</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Creates invoices for each member for net SDRT payments at the end of each day</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Acts as depository for bearer documents in the UK</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>B</strong> - Collects payment for SDRT and transfers them directly to HMRC
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+CREST will collect SDRT on behalf of Her Majesty's Revenue and Customs (HMRC). However, these will be collected for each purchase. There is no netting of SDRT.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 41</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1001193]</span>
+<span class="test-question-text">Which of the following represents the main benefit to investors of the LSE central counterparty?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Lower cost</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Lower risk</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Faster execution</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Wider spreads</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>B</strong> - Lower risk
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+The CCP service provides greater protection for investors against the risk of settlement default.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 42</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1001462]</span>
+<span class="test-question-text">Which of the following securities is most suitable if you are an investor who wishes to have an increase in returns as the performance of the company improves?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Debentures</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Participating preference shares</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Cumulative preference shares</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Redeemable preference shares</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>B</strong> - Participating preference shares
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Participating preference shares have a fixed dividend but also have a bonus tethered to them in years of improved performance. Cumulative preference shares, redeemable preference shares and debentures all have a fixed return.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 43</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1014213]</span>
+<span class="test-question-text">The process by which a clearing house becomes the central counterparty to all transactions on NYSE.liffe is called:</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Registration</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Clearance</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Novation</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Margin</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - Novation
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Novation is the process by which the clearing house becomes the central counterparty to exchange-traded transactions.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 44</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1070654]</span>
+<span class="test-question-text">What is the settlement period for shares traded on the LSE?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">2 business days</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">10 business days</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">7 calendar days</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">14 calendar days</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - 2 business days
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Standard settlement is T+2.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 45</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015156]</span>
+<span class="test-question-text">Market makers on the SEAQ system of the LSE:</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Must quote bid and offer prices up to the minimum quote size and are obliged to deal</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Have to quote bid-offer prices but are never bound by them</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Quote indicative bid and offer prices but do not have to deal</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Must quote bid and offer prices up to the minimum quote price and are not obliged to deal</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - Must quote bid and offer prices up to the minimum quote size and are obliged to deal
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Price quotes are required of market makers up to a minimum SIZE of trade, determined by the London Stock Exchange.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 46</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1044947]</span>
+<span class="test-question-text">Which of the following is a major benefit of a quote-driven market?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Better prices for traders</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">No requirement for market makers</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Time priority matching of buy and sell orders</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Increased liquidity</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>D</strong> - Increased liquidity
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+A quote-driven market, through the use of market makers, always has buyers and sellers in the market. Market makers are often referred to as liquidity providers for that reason.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 47</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1012757]</span>
+<span class="test-question-text">Which of the following best defines what variation margin payments cover?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Adverse movements expected over the next week</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Initial payment to cover future movement in price</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Adverse movements in value from the previous day</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Adverse movements from the previous week</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - Adverse movements in value from the previous day
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Variation margin can be a receipt or a payment. It represents the profit or loss on open derivative positions, which result from changes in underlying asset values from the previous day.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 48</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015159]</span>
+<span class="test-question-text">What is NMS?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Normal Multiplier System</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Normal Market System</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Normal Market Size</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Normal Multiplier Size</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>C</strong> - Normal Market Size
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Normal Market Size is used by the London Stock Exchange as a measure of the volume of trades executed in a particular security on SETS or SEAQ.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 49</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1012368]</span>
+<span class="test-question-text">Which of the following settlement systems is used for gilt trades on the London Stock Exchange?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">CGO</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">CREST</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">LCH.Clearnet</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">CMMO</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>B</strong> - CREST
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+The Central Gilts Office (CGO) and Central Money Markets Office (CMMO) are no longer used for gilt or money market settlements. LCH.Clearnet is the central counterparty for London Stock Exchange SETS transactions, but not Gilts.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 50</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1047475]</span>
+<span class="test-question-text">SDRT:</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Is collected by CREST</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Is calculated by the investor</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Is paid by the buyer directly to HMRC</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Is paid on certificated transactions</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - Is collected by CREST
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Stamp Duty and SDRT is a tax payable when certain shares are purchased. 
+SDRT is paid on transactions that settle through CREST.  CREST, calculates, collects and transfers SDRT to Her Majesty's Revenue and Customs (i.e. the UK government tax authority).
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 51</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1015555]</span>
+<span class="test-question-text">When a market maker uses a stock borrowing and lending intermediary to cover a short position by borrowing stock from a fund manager, which of the following best describes the relationship between the SBLI and their counterparties?</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">Agent with the market maker and agent with the fund manager</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">Agent with the market maker and principal with the fund manager</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">Principal with the market maker and agent with the fund manager</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">Principal with the market maker and principal with the fund manager</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - Agent with the market maker and agent with the fund manager
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+The SBLI acts as intermediary with both parties.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+<div class="test-question">
+<h2>Question 52</h2>
+<div class="test-question-body">
+<span class="test-question-id">[1001172]</span>
+<span class="test-question-text">On SETS, the best offer price is:</span>
+</div>
+<div class="test-question-image"></div>
+<div class="test-response-passive">
+<div id="test-response-1" class="clearfix">
+<div class="test-response-letter">A</div>
+<div class="test-response-answer">The lowest priced sell order</div>
+</div>
+<div id="test-response-2" class="clearfix">
+<div class="test-response-letter">B</div>
+<div class="test-response-answer">The lowest priced buy order</div>
+</div>
+<div id="test-response-3" class="clearfix">
+<div class="test-response-letter">C</div>
+<div class="test-response-answer">The highest priced sell order</div>
+</div>
+<div id="test-response-4" class="clearfix">
+<div class="test-response-letter">D</div>
+<div class="test-response-answer">The highest priced buy order</div>
+</div>
+</div>
+<div class="test-answer">
+<div class="test-answer-headline clearfix">
+<div class="test-answer-actual">
+The correct answer is: <strong>A</strong> - The lowest priced sell order
+</div>
+</div>
+<div class="test-answer-justification">
+<h3>Explanation</h3>
+Note: the best bid price is the highest priced buy order.
+</div>
+<div class="test-answer-image"><img src=""></div>
+</div>
+</div>
+</div>
+</div>					</div>								
+
+</body></html>
